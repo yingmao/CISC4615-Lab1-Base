@@ -8,6 +8,7 @@
 For windows users, please install [Git-Scm](https://git-scm.com/download/win). 
 
 For Mac/Linux users, please use your terminal for the following steps. 
+
 ---
 - On your laptop, creat a folder named CISC4615 (on the desktop) and inside it, create a folder named lab1, and then, download the sample codes into lab1 folder.
 
