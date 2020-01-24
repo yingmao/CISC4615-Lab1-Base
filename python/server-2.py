@@ -22,6 +22,6 @@ while True:
         conn.send(data.upper())     # return data
 
         if (data == 'bye') :
-            break;
+            break
 
-serve.close()                       #clode socket
+server.close()                       #clode socket
