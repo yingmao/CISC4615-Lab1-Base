@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
     {
         printf("Enter string to send:");
         bzero(buf,BUFFSIZE);
-        scanf("%s",buf);
+        fgets(buf,BUFFSIZE,stdin);
 
         buf[strlen(buf)] = '\n';
         len = send(client_sockfd, buf, strlen(buf), 0);
